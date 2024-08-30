@@ -23,7 +23,7 @@ After each attempt, press the "Check Word" button to see the feedback. Use the h
 
 ## Play the Game
 
-You can play the game online at [https://lighthearted-centaur-af5b03.netlify.app/](https://lighthearted-centaur-af5b03.netlify.app/).
+You can play the game online at [The Game](https://lighthearted-centaur-af5b03.netlify.app/).
 
 Enjoy the game and challenge yourself to guess the word in as few attempts as possible! 
 
