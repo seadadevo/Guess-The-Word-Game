@@ -173,14 +173,14 @@ function getHint(){
 }
 
 function handlebackspace(event){
-  if (event.key === "Backspace"){ // يجب أن تكون 'Backspace' بحرف B كبير
+  if (event.key === "Backspace"){ 
     const inputs = document.querySelectorAll("input:not([disabled])");
     const currentIndex = Array.from(inputs).indexOf(document.activeElement);
 
     if(currentIndex > 0){
       const currentInput = inputs[currentIndex];
       const prevInput = inputs[currentIndex - 1];
-      currentInput.value = ""; // قم بإلغاء تعليق هذا السطر إذا كنت ترغب في مسح القيمة الحالية
+      currentInput.value = ""; 
       prevInput.value = "";
       prevInput.focus();
     }
